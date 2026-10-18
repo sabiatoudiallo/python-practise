@@ -1,8 +1,8 @@
 from itertools import product
 from os import name
-
+# Practise 1
 Name = 'Sabiatou' 
-Surname = 'Diallo'
+Surname = 'Diallo'#
 Age = '22'
 Favorite_colour = 'pink'
 Faviorite_number = '7'
@@ -171,3 +171,4 @@ in_stock_not_sold = product_in_stock.difference(product_sold)
 print(in_stock_not_sold)
 products_in_either = product_in_stock.union(product_sold)
 print(products_in_either)
+
